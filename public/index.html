@@ -1,248 +1,329 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>
-        Resume
-	</title>
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" type="text/css" href="style.css">
-   
-</head>
-<body>
-<div class="container">
-    <div class="left_Side">
-     <div class = "profileText">
-         <div class = "proimg">
-             <img src='img.jpg'>
-         </div>
-         <h2>Olumide Gbenjo<br><span>Animator/Developer</span></h2>
-     </div>
-
-     <div class="contactInfo">
-         <h3 class= "title"> Contact info</h3>
-         <ul>
-             <li>
-                 <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                 <span class="text">+2347031228152</span>
-             </li>
-             <li>
-                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                <span class="text">olumidegbenjo@gmail.com</span>
-            </li>
-            <li>
-                <span class="icon"sssss><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                <span class="text">Lagos, Nigeria</span>
-            </li>
-         </ul>
-     </div>
-
-     <div class="contactInfo education">
-        <h3 class= "title"> Education </h3>
-        <ul>
-            <li>
-                <h5>2021 - present </h5>
-                <h4> HNG 8.0 Internship</h4>
-                <h4><a class ="hnglink" href="https://internship.zuri.team" target="_blank"> HNG</a> </h4>
-            </li>
-            <li>
-               <h5>2019 - 2020 </h5>
-               <h4> Graduate Accelerator Program</h4>
-               <h4> Stutern </h4>
-           </li>
-           <li>
-            <h5>2018 - 2019 </h5>
-            <h4> Character Animation Course</h4>
-            <h4>Orange VFX Studios </h4>
-        </li>
-           <li>
-            <h5>2013 - 2018 </h5>
-            <h4> Bachelors Degree in Accounting</h4>
-            <h4> Babcock University </h4>
-        </li>
-        </ul>
-    </div>
-
-    <div class="contactInfo language">
-        <h3 class= "title"> Language </h3>
-        <ul>
-        <li>
-            <span class="text"> English </span>
-            <span class="percent">
-                <div style="width: 90%"></div>
-            </span>
-        </li>
-        <li>
-            <span class="text"> Yoruba </span>
-            <span class="percent">
-                <div style="width: 75%"></div>
-            </span>
-        </li>
-        <li>
-            <span class="text"> Mandarin </span>
-            <span class="percent">
-                <div style="width: 55%"></div>
-            </span>
-        </li>
-        </ul>
-    </div>
- </div>
-
-
-    <div class="right_Side">
-        <div class="about">
-            <h2 class="title2"> Profile </h2>
-            <p>
-                My Name is Olumide Gbenjo. I am a PERN Stack Web developer and I see
-                myself as someone who is always ready to learn because if you don't 
-                learn continuously, you will be left behind in life.
-                <br><br> In the spirit of continuous learning, I find myself in the <span><a href="https://internship.zuri.team" target="_blank">
-                 HNG</a></span> 
-                internship and I am ready to learn and get my hands dirty 
-            </p>
-        </div>
-        <div class="about">
-          <h2 class="title2"> Experience </h2>
-          <div class="box">
-              <div class="year_company">
-                  <h5> 2021 - present</h5>
-                  <h5> HNG </h5>
-              </div>
-              <div class="text">
-                  <h4> Developer Intern</h4>
-                  <p> Solving tasks to move from stage 1 - stage 10</p>
-              </div>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Olus</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
           </div>
-
-          <div class="box">
-            <div class="year_company">
-                <h5> 2020 - 2021</h5>
-                <h5> Anthill Studios </h5>
-            </div>
-            <div class="text">
-                <h4> Junior Animator</h4>
-                <p> Animating 3D characters for the studio</p>
-            </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('spark.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="img.JPG" alt="Image"/></a></div>
+          
+          <div class="h2 title">Olumide Gbenjo</div>
+          <p class="category text-white">Web Developer, Animator</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#skill" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Skills</a>
+          <div><a href="https://internship.zuri.team" target="_blank"><img src="img2.png" alt="Image"/></a></div>
         </div>
-
-        <div class="box">
-            <div class="year_company">
-                <h5> 2020 - 2020</h5>
-                <h5> Orange VFX Studios </h5>
-            </div>
-            <div class="text">
-                <h4> animator Intern</h4>
-                <p> Animating 3d charcters to strenghten and improve animation knowledge</p>
-            </div>
-        </div>
-        </div>
-
-        <div class="about skills">
-            <h2 class="title2"> Professional Skills</h2>
-            <div class="box">
-                <h4> Html </h4>
-                <div class="percent">
-                    <div style="width: 80%;"></div>
-                </div>
-                
-            </div>
-            <div class="box">
-                <h4> Css </h4>
-                <div class="percent">
-                    <div style="width: 65%;"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4> Javascript </h4>
-                <div class="percent">
-                    <div style="width: 85%;"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4> Reactjs </h4>
-                <div class="percent">
-                    <div style="width: 83%;"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4> Expressjs </h4>
-                <div class="percent">
-                    <div style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4> PostgresQL </h4>
-                <div class="percent">
-                    <div style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4> Maya </h4>
-                <div class="percent">
-                    <div style="width: 70%;"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4> Blender </h4>
-                <div class="percent">
-                    <div style="width: 80%;"></div>
-                </div>
-            </div>
-        </div>
-        <div class = "profileText ">
-            <div class = "proimg2 footer">
-               <img src='img2.png'>
-            </div>
-        </div>
-    </div> 
-
-    <div class="about">
-        <h2 class="title2"> Contact Form </h2>
-        <div class="container2">
-            <form class="contact-form"> 
-              <div class="row">
-                <div class="col-25">
-                  <label for="fullname">Name</label>
-                </div>
-                <div class="col-75">
-                  <input type="text" id="fullname" name="fullname" placeholder="Full name">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-25">
-                  <label for="email">E-mail</label>
-                </div>
-                <div class="col-75">
-                  <input type="email" id="email" name="email" placeholder="Email">
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-25">
-                  <label for="subject">Subject</label>
-                </div>
-                <div class="col-75">
-                  <input type="text" id="subject" name="subject" placeholder="Subject">
-                </div>
-              </div>
-             
-              <div class="row">
-                <div class="col-25">
-                  <label for="subject">Message</label>
-                </div>
-                <div class="col-75">
-                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <input type="submit" value="Send Message">
-              </div>
-            </form>
-          </div>
+      </div>
     </div>
-    
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p> I am Olumide Gbenjo. Web Developer and 3D Animator.</p>
+            <p> I am a PERN Stack Web developer and I see
+              myself as someone who is always ready to learn because if you don't 
+              learn continuously, you will be left behind in life.
+              <br><br> In the spirit of continuous learning, I find myself in the <span><a href="https://internship.zuri.team" target="_blank">
+               HNG</a></span> 
+              internship and I am ready to learn and get my hands dirty </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">olumidegbenjo@gmail.com</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">+234 703 122 8152</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">Lagos Nigeria</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8">English, Yoruba</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title"> Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Nodejs</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">ReactJs</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Autodesk Maya</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<script src='app.js'></script>
-</body>
+</div>
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>August 2021 - Present</p>
+            <div class="h5">Developer Intern</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">HNG Internship</div>
+            <p> Solving ten stages of tasks in order to become a better web developer. The main goal is winning a finalist T-shirt </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>September 2020 - 2021</p>
+            <div class="h5">Anthill Studios</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Junior 3D Animator</div>
+            <p> Animating 3D characters for the studio</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>January 2020 - March 2020</p>
+            <div class="h5">Orange VFX Studios</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Animator Intern</div>
+            <p> Animating 3d charcters to strenghten and improve animation knowledge </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2019 - 2020</p>
+            <div class="h5"> Software Engineering</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Graduate Accelerator Program</div>
+            <p class="category">Stutern</p>
+            <p> I was taught the software development cycle and what it takes to be a web developer, both (front end and back end)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2018 - 2019</p>
+            <div class="h5">Charater Animation </div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Character Animation Course</div>
+            <p class="category">Orange VFX Studios</p>
+            <p> I was taught what it takes to bring 3D characters to life through animation with the help of 3D softwares</p>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <div class="cc-contact-information" >
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form class="contact-form" >
+                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" id="subject" name="subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" id="email" type="email" name="email" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" id="message" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <input type="submit" value="Send Message">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="pb-2">+234-703-122-8152</p>
+                    <p class="mb-0"><strong>Email</strong></p>
+                    <p>olumidegbenjo@gmail.comcom</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+   
+    <script src='app.js'></script>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
 </html>
